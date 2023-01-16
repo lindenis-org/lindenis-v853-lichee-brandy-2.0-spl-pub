@@ -1,0 +1,67 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# NOTE! Please use 'git ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+#
+# Normal rules
+#
+
+#
+# git files that we don't want to ignore even if they are dot-files
+#
+!.gitignore
+!.mailmap
+!.cocciconfig
+
+#generated files
+.module.common.mk
+arch/arm/cpu/armv7/.depend
+arch/arm/cpu/armv7/boot0_entry.o
+arch/arm/cpu/armv7/fes1_entry.o
+arch/arm/cpu/armv7/libarch.o
+arch/arm/cpu/armv7/sboot_entry.o
+autoconf.mk
+fes/.depend
+fes/fes1.bin
+fes/fes1.elf
+fes/fes1.lds
+fes/fes1.map
+fes/fes1_sun8iw21p1.bin
+fes/main/.depend
+fes/main/fes1_head.o
+fes/main/fes1_main.o
+fes/main/libmain.o
+include/commit_info.h
+include/config.h
+nboot/.depend
+nboot/boot0.lds
+nboot/boot0_nand.bin
+nboot/boot0_nand.elf
+nboot/boot0_nand.map
+nboot/boot0_nand_sun8iw21p1.bin
+nboot/boot0_sdcard.bin
+nboot/boot0_sdcard.elf
+nboot/boot0_sdcard.map
+nboot/boot0_sdcard_sun8iw21p1.bin
+nboot/boot0_spinor.bin
+nboot/boot0_spinor.elf
+nboot/boot0_spinor.map
+nboot/boot0_spinor_sun8iw21p1.bin
+nboot/main/.depend
+nboot/main/boot0_head.o
+nboot/main/boot0_main.o
+nboot/main/libmain.o
+sboot/.depend
+sboot/main/.depend
+sboot/main/libmain.o
+sboot/main/sboot_head.o
+sboot/main/sboot_main.o
+sboot/sboot.bin
+sboot/sboot.elf
+sboot/sboot.lds
+sboot/sboot.map
+sboot/sboot_sun8iw21p1.bin
